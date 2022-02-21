@@ -33,9 +33,15 @@
 
 
 /* SLIDER */
+
+@media (max-width:1205px){
+    .slider{
+        height: 320px ;
+    }
+}
 @media (max-width:1005px){
     .slider{
-        height: 360px ;
+        height: 300px ;
     }
 }
 
@@ -44,9 +50,9 @@
         height: 290px ;
     }
 }
-@media (max-width:540px){
+@media (max-width:680px){
     .slider{
-        height: 280px;
+        height: 218px;
     }
 
     .controls_sides{
@@ -64,6 +70,7 @@
     .more p{
         font-weight: normal;
     }
+
 }
 
 /* CARDS */
@@ -132,5 +139,28 @@
 
     .card8, .card5{
         background-size: cover;
+    }
+}
+
+@media (max-width:680px){
+    .card_img{
+        height: 218px;
+    }
+
+    .card3, .card6, .card7{
+        padding: 40px 25px;
+    }
+
+    .card3 a, .card6 a, .card7 a{
+       width: 35%;
+    }
+
+    .card_element p{
+        font-size: 15px;
+        line-height: 1.8em;
+    }
+
+    .card_element h1{
+        font-size: 21px;
     }
 }
