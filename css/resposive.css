@@ -7,7 +7,7 @@
 }
 
 @media (max-width:970px){
-    .container_entrar {
+    .container_getIn {
         display: none;
     }
 }
@@ -30,3 +30,34 @@
 }
 
 /* FIM HEADER */
+
+
+/* SLIDER */
+@media (max-width:1005px){
+    .slider{
+        height: 390px ;
+    }
+}
+
+@media (max-width:860px){
+    .slider{
+        height: 300px ;
+    }
+}
+@media (max-width:540px){
+    .slider{
+        height: 280px;
+    }
+
+    .controls_sides{
+        display: none ;
+    }
+
+    .slider_card1{
+        background-image: url('../assets/images/banner_1238893150_mobile.jpg');
+        
+    }
+    .slider_card2{
+        background-image: url('../assets/images/banner_2437495195_mobile.jpg');
+    }
+}

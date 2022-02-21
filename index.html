@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Starbucks</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/resposive.css">
+    
+
 </head>
 <body>
 
@@ -33,7 +36,7 @@
                         </a>
                     </li>
                     <li class="maps"><a href="#">Encontre uma loja</a></li>
-                   <div class="container_entrar">
+                   <div class="container_getIn">
                     <li><a class="entrar" href="#">Entrar</a></li>
                    </div>
                     <li><a  href="#">Participe agora</a></li>
@@ -55,7 +58,38 @@
         </div>
     </header>
 
+    <!-- SLIDER -->
+
+    <section class="slider container">
+        <div class="controls_sides">
+           <div class="control_side control_left" >
+                <img src="assets/icons/angle-left.svg" alt="">
+           </div>
+
+           <div class="control_side control_right" >
+                <img src="assets/icons/angle-right.svg" alt="">
+           </div>
+            
+        </div>
+
+        <div class="controls_bottom">
+            <div class="control_bottom" data-cardNumber="0">
+
+            </div>
+            <div class="control_bottom" data-cardNumber="1">
+
+            </div>
+
+        </div>
+
+        <div class="slider_container">
+            <div class="slider_card slider_card1"></div>
+            <div class="slider_card slider_card2"></div>
+        </div>
+    </section>
+
 
     <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 </html>
