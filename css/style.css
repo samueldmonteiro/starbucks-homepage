@@ -2,4 +2,134 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Oswald:wght@300;400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* HEADER */
+
+header{
+    padding: 20px 20px;
+    height: 100px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.164);
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.header_mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+.header_mobile .logo {
+    width: 51px;
+    height: 51px;
+}
+.header_mobile .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.header_mobile .button_menu {
+    width: 35px;
+    height: 35px;
+}
+
+.header_mobile .button_menu img{
+    width: 100%;
+    height: 100%;
+}
+
+.menu_left, .menu_right{
+    display: flex;
+    align-items: center;
+}
+.menu_left a, .menu_right a{
+    padding: 10px;
+    margin-left: 5px;
+    text-transform: uppercase;
+    color:black;
+    font-size: 13.5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+}
+.menu_right a{
+    text-transform: none;
+    font-size: 14px;
+    
+}
+
+.menu_right li{
+   margin-left: 5px;
+    
+}
+
+.menu_left img{
+    width: 51px;
+    height: 51px;
+    margin-right: 15px;
+}
+
+.menu_left a:hover{
+   color: #006341;
+   transition: 0.1s;
+}
+
+
+.menu_right img{
+    width: 120px;
+   
+}
+.menu_right li:nth-of-type(2){
+    display: flex;
+    align-items: center;
+    
+}
+.menu_right li:nth-of-type(2)::before{
+    content: "";
+    background-image: url('../assets/images/location-dot-solid.svg');
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: -5px;
+    
+}
+
+.container_li_entrar li, .menu_right li:nth-of-type(3){
+    border: 1px solid black;
+    padding: 7px 8px;
+    border-radius: 50px;
+}
+.container_li_entrar{
+    width: 90px;
+    height: 35px;
+}
+.container_li_entrar li:hover{
+    background-color: rgba(3, 0, 0, 0.123);
+    /* box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.699); */
+    transition: 0.2s;
+}
+
+.menu_right li:nth-of-type(3) a{
+    color: white;
+}
+
+.menu_right li:nth-of-type(3){
+    background-color: black;
+    margin-left: 10px;
+}
+
+.menu_right li:nth-of-type(3):hover{
+    background-color: rgba(8, 8, 8, 0.836);
+    transition: 0.2s;
 }
