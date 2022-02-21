@@ -17,6 +17,7 @@ setMarginSlider(valueCard)
 window.addEventListener('resize',function(){
     sliderWidth = document.querySelector('.slider').clientWidth
    setWidthContainer()
+
 })
 
 
