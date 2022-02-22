@@ -307,18 +307,39 @@ footer span{
 /* MENU MOBILE */
 
 .container_menu_mobile{
-    background-color: rgba(0, 0, 0, 0.5);
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     position: fixed;
+    overflow: hidden;
+    max-width: 0px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hide_menuMobile {
+  
+    max-width: 0px !important;
+    transition: 0.3s ;
+    opacity: 0;
+
+
+}
+
+.show_menuMobile {
+    
+    max-width: 100% !important;
+    transition: 0.3s;
+    opacity: 1;
+
 }
 .menu_mobile{
     width: 300px;
     background-color: white;
    height: 100%;
    padding:15px 0px;
+   overflow: hidden;
+   max-width: 0px;
 }
 
 .menu_mobile ul{
