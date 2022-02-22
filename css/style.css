@@ -302,3 +302,72 @@ footer span{
     color: gray;
     display: block;
 }
+
+
+/* MENU MOBILE */
+
+.container_menu_mobile{
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+}
+.menu_mobile{
+    width: 300px;
+    background-color: white;
+   height: 100%;
+   padding:15px 0px;
+}
+
+.menu_mobile ul{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.205);
+    padding-bottom: 10px;
+}
+.menu_mobile li{
+    width: 100%;
+    display: block;
+    padding: 15px;
+}
+.menu_mobile li a{
+    color: black;
+    width: 100%;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.menu_mobile li:hover{
+    background-color: rgba(128, 128, 128, 0.411);
+    transition: 0.2s;
+}
+
+.menu_mobile .menu_right{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu_mobile .menu_right a{
+    text-align: center; 
+    margin: 0;
+  
+}
+
+.menu_mobile .menu_right li{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  
+}
+
+.menu_mobile .menu_right .container_getIn{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.menu_mobile .menu_right li:nth-of-type(3){
+    padding: 15px;
+    
+}
