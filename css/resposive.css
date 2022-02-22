@@ -226,3 +226,23 @@ ABOUT */
     }
     
 }
+
+/* FOOTER */
+
+@media (max-width:940px){
+    footer{
+        padding: 40px 10px;
+    }
+}
+
+@media (max-width:850px){
+    footer .terms ul{
+        flex-direction: column;
+    }
+
+    .terms ul li{
+        padding: 10px 0px;
+        margin: 5px 0px;
+        border: none;
+    }
+}
