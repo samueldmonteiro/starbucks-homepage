@@ -35,12 +35,10 @@ menuMobile.addEventListener('click',(e)=>{
     e.stopPropagation()
 })
 container_menuMobile.addEventListener('click',(e)=>{
-    console.log('.container')
+   
     hideMenu(e.target)
 
 })
-
-
 
 function hideMenu(e){
     menuMobile.classList.add('hide_menuMobile')

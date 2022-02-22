@@ -57,7 +57,7 @@ function setMarginSlider(){
 
     let margin = (sliderWidth * valueCard)
     container_sliders.style.marginLeft = `-${margin}px`
-    console.log(margin,  container_sliders.style.marginLeft)
+    
 
     controls_bottom.forEach(control_side=>{
         setCorControlBottom(control_side)
