@@ -2,6 +2,8 @@
 
 Olá, esse projeto é um clone da homepage do StarBucks
 
+### Acesse: https://starb-home.netlify.app/
+
 ## Tecnologias
 
 * HTML5
